@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  font-family: 'Tajawal', sans-serif;
+  background:#fff0f6;
+}
+
+/* الهيدر */
+.header{
+  background:#ff6fa8;
+  padding:20px;
+  text-align:center;
+  color:white;
+  font-size:28px;
+  font-weight:bold;
+}
+
+/* الهيرو */
+.hero{
+  text-align:center;
+  padding:60px 20px;
+  background:#ffd1e8;
+  color:#5a0034;
+}
+
+/* المنتجات */
+.products{
+  padding:30px;
+  display:flex;
+  justify-content:center;
+}
+
+.product-card{
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  width:300px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img{
+  width:100%;
+  border-radius:10px;
+}
+
+button{
+  background:#ff6fa8;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:8px;
+  cursor:pointer;
+  margin-top:10px;
+  font-size:16px;
+}
